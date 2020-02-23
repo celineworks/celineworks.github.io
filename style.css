@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #393e46;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* header
+------------------------------- */
+.hdcolor {
+  background-color: #222831;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.wrapper2 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.logo {
+  width: 75px;
+  margin-top: 14px;
+}
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #eeeeee;
+}
+.main-nav a:hover{
+  color: #00adb5;
+}
+ .page-header {
+   display: flex;
+   justify-content: space-between;
+ }
+
+/* home
+----------------------------------------*/
+/* 見出し */
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/* BG */
+.big_bg {
+  background-size: cover;
+  background-position: center; top;
+  background-repeat: no-repeat;
+}
+#home {
+  background-image: url(desk.png);
+  min-height: 100vh;
+}
+#home .page-title {
+  text-transform: none;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+/* ボタン */
+.button {
+  font-size: 1.375rem;
+  background: #393e46;
+  color: #eee;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.button:hover {
+  background: #00adb5;
+}
+/* footer
+---------------------------------------*/
+footer {
+  background: #222831;
+  text-align: center;
+  padding: 26px 0;
+}
+footer p {
+  color: #eee;
+  font-size: 1rem;
+}
+
+.not404 {
+  color: #222831;
+  font-size: 3rem;
+  font-family: 'Philosopher', serif;
+  text-align: center;
+}

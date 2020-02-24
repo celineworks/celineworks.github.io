@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*リンクの下線消すやつ*/
+a {
+  text-decoration: none;
+}
+
+/* くそねむい About */
+.request {
+  margin: 10%;
+}
+
+.box {
+  width: 300px;
+  height: 2px;
+  background: #333;
+  transition: all 300ms 0s ease;
+}
+.box:hover {
+  background: #0bd;
+  width: 500px;
+}
+
+.title_request {
+  text-align: left;
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  transition: all 300ms 0s ease;
+}
+.title_request:hover {
+  color: #0bd;
+}
+.title {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+.request_text {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  margin-left: 25px;
+  color: #333;
+}
+
+/* nav */
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 2vh;
+  padding-bottom: 10%;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #333;
+  transition: all 300ms 0s ease;
+}
+.main-nav a:hover{
+  color: #00adb5;
+}
+
+.sns {
+  margin: 25px;
+}
+
+.twitter_txt {
+  padding-left: 25px;
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  transition: all 300ms 0s ease;
+}
+.twitter_txt:hover {
+  color: #0bd;
+}
+
+/* FOOTER */
+footer {
+ float: right;
+ margin: 5%;
+ margin-left: 85%;
+ position: absolute;
+ bottom: 0;
+}
+.copy {
+ padding: 100px
+ color: #333;
+ font-family: 'Raleway', sans-serif;
+ text-align: right;
+}

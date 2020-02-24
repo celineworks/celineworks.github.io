@@ -47,7 +47,7 @@ a {
 }
 .border_1 {
   margin-top: 25px;
-  width: 100vh;
+  width: 50%;
   height: 2px;
   background: #333;
 }

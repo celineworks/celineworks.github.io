@@ -71,6 +71,16 @@ to {
   margin: 25px;
   font-size: 1.5rem;
 }
+.tumblr_text {
+  color: #000;
+  margin: 25px;
+  padding-left: 25px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.tumblr_text:hover {
+  color: #A77DC2;
+}
 
 p {
   font-family: "Yu Gothic","ヒラギノ角ゴ Pro W3", sans-serif;

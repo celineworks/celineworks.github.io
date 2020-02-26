@@ -1,110 +1,160 @@
 @charset "UTF-8";
 
-/*リンクの下線消すやつ*/
+/* リンクの下の線消すやつ */
 a {
   text-decoration: none;
 }
 
-/* くそねむい About */
-.about {
-  margin: 10%;
+body {
+  background-color: #fdfdfd;
 }
 
-.box {
-  width: 300px;
-  height: 2px;
-  background: #333;
-  transition: all 300ms 0s ease;
+/* top_title */
+
+.top_text{
+  margin: 0 20%;
+  padding-top: 10%;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
-.box:hover {
-  background: #0bd;
-  width: 500px;
+@keyframes fadein {
+from {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
 }
 
-.title_about {
-  text-align: left;
-  font-size: 3rem;
-  font-family: 'Lato', sans-serif;
-  color: #333;
-  transition: all 300ms 0s ease;
+.table_01 {
+  display:table;
 }
-.title_about:hover {
-  color: #0bd;
-}
-.name_title {
+.celimg {
+  display: table-cell;
+  vertical-align: middle;
   margin-top: 25px;
+  width: 300px;
+}
+.about_txt2 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+.title {
+  font-size: 2rem;
+  color: #000;
   text-align: left;
-  font-size: 5rem;
-  font-family: 'Lato', sans-serif;
-  color: #333;
+  font-family: 'Gilroy', sans-serif;
 }
 .about_text {
-  margin-top: 5px;
-  font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
-  margin-left: 25px;
-  color: #333;
-}
-.border_1 {
-  margin-top: 25px;
-  width: 50%;
-  height: 2px;
-  background: #333;
-}
-.about_text2 {
-  margin-top: 25px;
-  padding-left: 25px;
+  margin-bottom: 10px;
+  margin-left:10px;
   font-size: 1rem;
-  font-family: 'Noto Sans JP', sans-serif;
+  color: #000;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
 }
-/* nav */
+.name {
+  font-size: 3rem;
+  color: #000;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.line_2 {
+  margin: 25%;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 50px;
+}
+
+.menu {
+  padding-top: 1px;
+}
+
+.line {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+  margin-top: 12.5px;
+}
+
 .main-nav {
   display: flex;
   font-size: 1.25rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: bold;
   margin-top: 2vh;
-  padding-bottom: 10%;
+  margin-top: 25px;
   list-style: none;
-  position: absolute;
-  bottom: 0;
 }
 .main-nav li {
-  margin-left: 36px;
+  margin-left: 50px;
 }
 .main-nav a {
-  color: #333;
-  transition: all 300ms 0s ease;
+  color: #000;
+  transition: color 0.3s;
 }
 .main-nav a:hover{
-  color: #00adb5;
+  color: #A77DC2;
 }
-
-.sns {
-  margin: 25px;
+.about_txt_p {
+  text-align: justify;
 }
-
-.twitter_txt {
+p {
   padding-left: 25px;
-  font-size: 1.25rem;
-  font-family: 'Raleway', sans-serif;
-  color: #333;
-  transition: all 300ms 0s ease;
-}
-.twitter_txt:hover {
-  color: #0bd;
+  font-size: 1rem;
+  line-height: 2;
+  font-family: "Yu Gothic","ヒラギノ角ゴ Pro W3", sans-serif;
+  font-weight: 400;
 }
 
-/* FOOTER */
-footer {
- float: right;
- margin: 5%;
- margin-left: 85%;
- position: absolute;
- bottom: 0;
+footer{
+    text-align: center;
+    margin: 10% 20%;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
 }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+}
+}
+
+.copylight {
+  position: fixed;
+  top: 90%;
+  right: 5%;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+  @keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+  to {
+    opacity: 1;
+    transform: translateX(0);
+}
+}
+
 .copy {
- padding: 100px
- color: #333;
- font-family: 'Raleway', sans-serif;
- text-align: right;
+    font-size: 0.75rem;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: normal;
+    color: #1a1a1a;
 }

@@ -11,16 +11,9 @@ body {
 
 /* top_title */
 
-.title {
-  font-size: 2rem;
-  color: #000;
-  text-align: left;
-  font-family: 'Gilroy', sans-serif;
-}
-
 .top_text{
   margin: 0 20%;
-  padding-top: 10%;
+  padding-top: 20%;
   animation-name: fadein;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -35,15 +28,19 @@ to {
   transform: translateX(0);
 }
 }
-.menu {
-  padding-top: 1px;
-}
 
-.line {
-  width: 100px;
-  height: 1px;
-  background-color: #000;
-  margin-top: 12.5px;
+.title {
+  font-size: 3rem;
+  color: #000;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
+}
+.about_text {
+  margin: 10px;
+  font-size: 1rem;
+  color: #000;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .main-nav {
@@ -52,52 +49,18 @@ to {
   font-family: 'Gilroy', sans-serif;
   font-weight: bold;
   margin-top: 2vh;
-  margin-top: 25px;
   list-style: none;
 }
 .main-nav li {
-  margin-left: 50px;
+  margin-left: 36px;
+
 }
 .main-nav a {
   color: #000;
   transition: color 0.3s;
 }
-.main-nav a:hover{
+.main-nav a:hover {
   color: #A77DC2;
-}
-
-
-.request_text {
-  font-family: "Yu Gothic","ヒラギノ角ゴ Pro W3",sans-serif;
-  font-weight: bold;
-  margin: 50px;
-  font-size: 1rem;
-  color: #000;
-}
-
-p {
-  font-family: "Yu Gothic","ヒラギノ角ゴ Pro W3", 'Gilroy',sans-serif;
-  font-weight: 400;
-}
-
-footer{
-    text-align: center;
-    margin: 10% 20%;
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-  }
-  @keyframes fadein {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-}
-  to {
-    opacity: 1;
-    transform: translateX(0);
-}
 }
 
 .copylight {

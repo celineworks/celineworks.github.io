@@ -7,6 +7,7 @@ a {
 
 body {
   background-color: #fdfdfd;
+  flex: 1 0 auto;
 }
 
 /* top_title */
@@ -46,13 +47,44 @@ to {
   margin-top: 12.5px;
 }
 
+.works {
+  margin: 0 20%;
+  margin-top: 75px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes fadein {
+from {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+.post {
+  padding-left: 2%;
+  padding-bottom: 2vw;
+}
+
+img {
+  width: 200px;
+}
+
+
 .main-nav {
+  left: 20%;
   display: flex;
   font-size: 1.25rem;
   font-family: 'Gilroy', sans-serif;
   font-weight: bold;
-  margin-top: 2vh;
-  margin-top: 25px;
   list-style: none;
 }
 .main-nav li {
@@ -71,16 +103,7 @@ to {
   margin: 25px;
   font-size: 1.5rem;
 }
-.tumblr_text {
-  color: #000;
-  margin: 25px;
-  padding-left: 25px;
-  font-size: 1rem;
-  transition: color 0.3s;
-}
-.tumblr_text:hover {
-  color: #A77DC2;
-}
+
 
 p {
   font-family: "Yu Gothic","ヒラギノ角ゴ Pro W3", sans-serif;
@@ -88,9 +111,12 @@ p {
 }
 
 footer{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #fdfdfd;
+    position: fixed;
     text-align: center;
-    margin: 10% 20%;
-    position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
     animation-name: fadein;
     animation-duration: 2s;
@@ -109,7 +135,9 @@ footer{
 
 .copylight {
   position: fixed;
-  top: 90%;
+  text-align: center;
+  bottom: 0; /*下に固定*/
+  padding-bottom: 50px;
   right: 5%;
   animation-name: fadein;
   animation-duration: 2s;

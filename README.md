@@ -8,3 +8,4 @@ masonry.pkgd.min.js
 
 imagesloaded.pkgd.min.js
 
+scrollreveal.js

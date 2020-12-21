@@ -6,10 +6,6 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.celine {
-  font-size: 24px !important;
-}
-
 header nav {
   margin-top: 1rem;
 }
@@ -17,9 +13,11 @@ header nav {
 .back a {
   font-size: 12px;
   color: #1a1a1a;
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
+
 .back a:hover {
   color: #0096db;
 }
@@ -27,8 +25,9 @@ header nav {
 .desc h1 {
   font-size: 34px;
   color: #1a1a1a;
-  transition: color 0.15s ease;
-  margin-bottom: 20px;
+  -webkit-transition: color .15s ease;
+  transition: color .15s ease;
+  margin-bottom: 18px;
   cursor: default;
 }
 
@@ -37,8 +36,9 @@ header nav {
   width: 100%;
   margin-bottom: 12px;
 }
+
 .works_post .desc {
-  margin: 0.5em 0;
+  margin: .5em 0;
 }
 
 img {
@@ -55,8 +55,9 @@ img {
 @media screen and (max-width: 425px) {
   .footer_margin {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     padding: 40px auto;
   }
 }
+/*# sourceMappingURL=post.css.map */

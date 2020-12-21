@@ -12,10 +12,6 @@ body {
     margin-bottom: 2.5rem;
 }
 
-.celine {
-    font-size: 24px !important;
-}
-
 header nav {
     margin-top: 1rem;
 }
@@ -37,7 +33,7 @@ header nav {
 
     transition: color .15s ease;
 
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 
     cursor: default;
 }
@@ -68,7 +64,7 @@ img {
 @media screen and (max-width: 425px) {
     .footer_margin {
         width: 100%;
-        position: absolute;
+        position: relative;
         bottom: 0;
         
         padding: 40px auto;
